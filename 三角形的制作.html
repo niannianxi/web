@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>各种三角形的制作</title>
+    <style>
+        .div1{
+            width: 0;
+            height: 0;
+            border-top:50px solid pink;
+            border-right:50px solid black;
+            border-bottom:50px solid yellow;
+            border-left: 50px solid red;
+        }
+        .div2{
+            width: 0;
+            height: 0;
+            border-top:50px solid pink;
+            border-right:50px solid black;
+            border-bottom:0px solid yellow;
+            border-left: 50px solid red;
+        }
+        .div3{
+            width: 0;
+            height: 0;
+            border-top:100px solid pink;
+            border-right:50px solid black;
+            border-bottom:0px solid yellow;
+            border-left: 50px solid red;
+        }
+        .div4{
+            width: 0;
+            height: 0;
+           /* border-top:100px solid transparent;
+             三角形要有高度，所以不能设置高度为0，设置颜色为透明即可 
+            border-right:50px solid black;
+            border-bottom:0px solid yellow;
+            border-left: 0px solid red;*/
+            border-color:red transparent  transparent transparent;  /*按照上右下左的顺序书写*/
+            border-style: solid;
+            border-width: 100px 50px 0 0;
+        }
+    </style>
+</head>
+<body>
+    <H2>四个等腰三角形</H2>
+    <div class="div1">
+     
+    </div>
+    <h2>
+        等腰直角三角形
+    </h2>
+    <div class="div2"> 
+
+    </div>
+    <h2>
+        普通的直角三角形
+    </h2>
+    <div class="div3"> 
+
+    </div>
+    <h2>
+        一个普通的直角三角形
+    </h2>
+    <div class="div4"> 
+
+    </div>
+</body>
+</html>
